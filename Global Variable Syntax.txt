@@ -1,0 +1,41 @@
+Global Variable Syntax:
+
+[] - Optional entities
+<> - mandatory entities 
+
+[access_specifier][access_modifier]<datatype><variablename> [= <literals>];
+
+Access Specifier:
+	public
+	protected
+	private
+	*default*
+Access Modifiers:
+	static
+	final
+	transient
+Data Type:
+
+	Primitive Datatype			Non-Primitive Datatype
+	byte - 1 byte				Anything of the type
+	short - 2 bytes				class/interface
+	int - 4 bytes
+	long - 8 bytes				String
+	float - 4 bytes				Employee
+	double - 8 bytes
+	char - 2 bytes
+	boolean - 
+
+[access_specifier][access_modifier]<datatype><variablename> [= <literals>];
+
+public final double PIE = 3.14;
+       final int HEIGHT = 8848;
+	     double salary = 67892.45;
+	     String name;
+
+
+
+
+
+
+
